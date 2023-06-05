@@ -7,7 +7,7 @@
 */
 
 vector<vector<int>> mergeIntervals(vector<vector<int>> &intervals)
-{   
+{   //sort the array
     sort(intervals.begin(),intervals.end());
     vector<vector<int>> ans;
     for(int i=0;i<intervals.size();i++){
